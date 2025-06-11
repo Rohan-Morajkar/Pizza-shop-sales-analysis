@@ -28,7 +28,7 @@ Below are the four key thematic areas (categories) we explore, each concluding w
 
 The SQL queries used to inspect and clean the data for this analysis can be found [here](#)   
 
-Targeted SQL queries regarding various business questions can be found [here](#)  
+Targeted SQL queries regarding various business questions can be found [here](https://github.com/Rohan-Morajkar/Pizza-shop-sales-analysis/blob/main/Buisness_Questions_Answered.sql)  
 
 An interactive Power BI dashboard used to report and explore sales trends can be found [here](https://github.com/Rohan-Morajkar/Pizza-shop-sales-analysis/blob/main/Pizza%20Sales%20Dashboard.pbix)
 

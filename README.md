@@ -26,26 +26,30 @@ Below are the four key thematic areas (categories) we explore, each concluding w
 - **Category 3: Pizza Size Performance (Small, Medium, Large, X-Large, XX-Large)**  
 - **Category 4: Product-Level Rankings (Top 5 & Bottom 5 Pizzas by Revenue, Quantity, Orders, AOV)**  
 
-The SQL queries used to inspect and clean the data for this analysis can be found [here](#)   
+The SQL queries used to inspect and clean the data for this analysis can be found [here](https://github.com/Rohan-Morajkar/Pizza-shop-sales-analysis/blob/main/pizza_sales_clean.xlsx)   
 
 Targeted SQL queries regarding various business questions can be found [here](https://github.com/Rohan-Morajkar/Pizza-shop-sales-analysis/blob/main/Buisness_Questions_Answered.sql)  
 
 An interactive Power BI dashboard used to report and explore sales trends can be found [here](https://github.com/Rohan-Morajkar/Pizza-shop-sales-analysis/blob/main/Pizza%20Sales%20Dashboard.pbix)
 
 
-##  Data Cleaning Summary (on 50,000 rows)
+## Data Cleaning Process
+To ensure the dataset was clean and analysis-ready, the following steps were performed in Excel:
 
-To prepare the dataset for analysis, several data cleaning steps were applied:
+- **Text Standardization:**
+  - `pizza_name`: Removed leading/trailing spaces using the `TRIM` function.
+  - `pizza_category`: Standardized inconsistent casing using the `PROPER` function to ensure uniform formatting.
 
-- **Trimmed whitespace** from `pizza_name` entries (affected ~9,928 rows).
-- **Standardized category labels** in `pizza_category` by correcting inconsistent lowercase formatting (~9,694 rows).
-- **Handled missing values**:
-  - `pizza_size`: ~2,384 rows — imputed with the most frequent value or dropped.
-  - `unit_price`: ~2,458 rows — imputed using mean/median.
-  - `order_time`: ~2,500 rows — imputed with mode or removed.
-- **Corrected typos** such as `'cheez'` to `'cheese'` in product names.
-- **Converted `quantity`** from string to integer type (affecting 48,625 rows).
-- **Removed 5 exact duplicate rows** from the dataset.
+- **Handling Missing Values:**
+  - `pizza_size`: Imputed missing values (~5%) by identifying the most frequent size (`L`) using the `COUNTIF` function and replacing blanks.
+  - `unit_price`: Replaced missing values (~5%) with the **average** price.
+  - `order_time`: Imputed missing timestamps (~5%) using a default value `12:00:00`.
+
+- **Data Type Correction:**
+  - `quantity`: Converted from string to integer type for accurate aggregation and analysis (100% rows affected).
+
+- **Deduplication:**
+  - Removed 5 duplicate rows across the dataset to maintain uniqueness and integrity.
 
 >  Final dataset is clean, consistent, and ready for analysis.
 

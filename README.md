@@ -26,7 +26,7 @@ Below are the four key thematic areas (categories) we explore, each concluding w
 - **Category 3: Pizza Size Performance (Small, Medium, Large, X-Large, XX-Large)**  
 - **Category 4: Product-Level Rankings (Top 5 & Bottom 5 Pizzas by Revenue, Quantity, Orders, AOV)**  
 
-The SQL queries used to inspect and clean the data for this analysis can be found [here](https://github.com/Rohan-Morajkar/Pizza-shop-sales-analysis/blob/main/pizza_sales_clean.xlsx)   
+The cleaned dataset, along with all transformation and cleaning steps performed in Excel, can be found [here](https://github.com/Rohan-Morajkar/Pizza-shop-sales-analysis/blob/main/pizza_sales_clean.xlsx)   
 
 Targeted SQL queries regarding various business questions can be found [here](https://github.com/Rohan-Morajkar/Pizza-shop-sales-analysis/blob/main/Buisness_Questions_Answered.sql)  
 

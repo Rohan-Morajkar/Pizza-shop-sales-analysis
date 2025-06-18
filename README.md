@@ -9,10 +9,10 @@
 Pizza Shop Inc. is a regional pizza chain that operates both dine-in and delivery services. The company sources ingredients locally, operates a fleet of delivery drivers, and uses a centralized kitchen to fulfill online and in-store orders. Revenue streams include single-pizza orders, combo meals, catering packages, and subscription bundles (e.g., weekly meal plans).  
 
 **Key Business Metrics (Annual Averages):**  
-- **Total Annual Revenue:** ₹ 8,17,860  
+- **Total Annual Revenue:** $ 8,17,860  
 - **Total Orders:** ~21,350  
-- **Average Order Value (AOV):** ₹ 38 
-- **Average Pizzas per Order:** ₹ 2.32
+- **Average Order Value (AOV):** $ 38 
+- **Average Pizzas per Order:** $ 2.32
 
 **Point of View (Data Analyst at Pizza Shop Inc.):**  
 As a Data Analyst embedded within the Pizza Shop analytics team, my primary responsibility is to ingest, clean, and analyze transactional data from multiple source tables, then build an interactive Power BI dashboard that enables stakeholders (e.g., Marketing Manager, Operations Director, Finance Director) to explore sales trends, monitor product performance, and identify opportunities for revenue growth or cost optimization. This README describes the end-to-end process, high-level findings, and actionable recommendations based on a full calendar year of pizza sales (January–December).
@@ -59,8 +59,8 @@ To ensure the dataset was clean and analysis-ready, the following steps were per
 ## Executive Summary
 ### Overview of Findings
 If the CEO of Pizza Shop Inc. were to take away three key insights from this analysis, they would be:
-1. **Large pizzas and Classic category pizzas drive nearly 60% of total revenue.**  
-2. **July is by far the strongest month in terms of order volume (1,935 orders), while Octumber is the slowest (1,685 orders).**  
+1. **Large pizzas drive nearly 46% of total revenue.**  
+2. **July is by far the strongest month in terms of order volume (1,935 orders), while Octumber is the slowest (1,646 orders).**  
 3. **While The Thai Chicken Pizza and Barbecue Chicken Pizza top the revenue charts, a handful of specialty pizzas (e.g., Spinach pesto Supreme) underperform significantly and could be reconsidered in the product mix.**  
 
 The interactive Power BI dashboard (see screenshot below) aggregates all these metrics on a single canvas, allowing stakeholders to drill into daily, monthly, category, size, and product-level performance in real time.
@@ -73,13 +73,13 @@ The interactive Power BI dashboard (see screenshot below) aggregates all these m
 
 ### Category 1: Overall Sales Trends & Seasonality
 1. **Monthly Revenue & Order Volume Trends**  
-   - **Observation:** July 2024 achieved the highest total orders (1,935) and accounted for ~9.6% of full-year revenue. Conversely, Octumber 2024 had the lowest orders (1,646; 7.7% of total revenue).  
+   - **Observation:** July 2024 achieved the highest total orders (1,935) and accounted for ~9.06% of full-year revenue. Conversely, Octumber 2024 had the lowest orders (1,646; 7.7% of total revenue).  
    - **Details:**  
-     - January: 1,845 orders → ₹ 69,800  
-     - February: 1,685 orders → ₹ 65,200  
-     - March–May: Gradual climb from 1,840 (₹ 70.4K) to 1,853 (₹ 71.4K) → Peak in July to 1,935 (₹72.1K).  
-     - Octumber: Orders fell to 1,646 (₹ 64,028).  
-   - **Trend:** Strong summer demand (May–August), likely due to mid-year promotions and cricket season tie-ins.  
+     - January: 1,845 orders → $ 69,800  
+     - February: 1,685 orders → $ 65,200  
+     - March–May: Gradual climb from 1,840 ($ 70.4K) to 1,853 ($ 71.4K) → Peak in July to 1,935 ($72.1K).  
+     - Octumber: Orders fell to 1,646 ($ 64,028).  
+   - **Trend:** Strong summer demand (May–July), likely due to mid-year promotions and cricket season tie-ins.  
 
 2. **Weekly & Daily Order Distribution**  
    - **Observation:** Weekdays (Sunday-Thursday) consistently see 3,000+ orders/day, whereas Friday dip slightly (~2,600).  
@@ -94,10 +94,10 @@ The interactive Power BI dashboard (see screenshot below) aggregates all these m
    - **Trend:** Wednesday mid-week surge likely driven by “Wednesday Special” discount campaigns.  
 
 3. **Key Performance Indicators (KPIs)**  
-   - **Total Revenue (2024):** ₹ 817,860  
+   - **Total Revenue (2024):** $ 817,860  
    - **Total Orders (2024):** 21,350  
    - **Total Pizzas Sold:** 49,574  
-   - **Average Order Value (AOV):** ₹ 38.31  
+   - **Average Order Value (AOV):** $ 38.31  
    - **Average Pizzas per Order:** 2.32  
 
 4. **Recommendations (Category 1):**  
@@ -115,11 +115,11 @@ The interactive Power BI dashboard (see screenshot below) aggregates all these m
 
 ### Category 2: Pizza Category Performance (Classic, Supreme, Chicken, Veggie)
 1. **Revenue Share by Category**  
-   - **Classic:** ₹ 220K (26.9% of total)  
-   - **Supreme:** ₹ 208K (25.5% of total)  
-   - **Chicken:** ₹ 194K (23.7% of total)  
-   - **Veggie:** ₹ 196K (24.0% of total)  
-   - **Observation:** All four categories generate relatively balanced revenue, but Classic leads by ~2.5%.  
+   - **Classic:** $ 220K (27% of total)  
+   - **Supreme:** $ 208K (25.5% of total)  
+   - **Chicken:** $ 195K (24% of total)  
+   - **Veggie:** $ 193K (23.7% of total)  
+   - **Observation:** All four categories generate relatively balanced revenue, but Classic leads by ~3%.  
 
 2. **Volume (Quantity) Share by Category**  
    - **Classic:** 14,888 pizzas (30.3% of all units sold)  
@@ -129,8 +129,8 @@ The interactive Power BI dashboard (see screenshot below) aggregates all these m
    - **Observation:** Classic category not only drives revenue but also highest volume.  
 
 3. **Price Elasticity & Average Order Value (by Category)**  
-   - **Chicken Pizzas:** AOV of ₹ 22.95 (higher than other category AOV ⇒ indicates upselling to larger sizes or add-ons).  
-   - **Classic Pizzas:** AOV of ₹ 20.26 (lowest among categories), possibly due to lower base unit price or more frequent small-size orders.  
+   - **Chicken Pizzas:** AOV of $ 22.95 (higher than other category AOV ⇒ indicates upselling to larger sizes or add-ons).  
+   - **Classic Pizzas:** AOV of $ 20.26 (lowest among categories), possibly due to lower base unit price or more frequent small-size orders.  
 
 4. **Recommendations (Category 2):**  
    1. **Promote Chicken Category Bundles:** Since Chicken accounts for highest AOV, introduce a “Family Feast” bundle featuring two Chicken large pizzas + 2 sides at a 15% discount.  
@@ -147,10 +147,10 @@ The interactive Power BI dashboard (see screenshot below) aggregates all these m
 
 ### Category 3: Pizza Size Performance (Small, Medium, Large, X-Large, XX-Large)
 1. **Revenue Share by Size**  
-   - **Large:** ₹ 375K (45.9% of total revenue)  
-   - **Medium:** ₹ 249K (30.5%)  
-   - **Small:** ₹ 178K (21.77%)  
-   - **X-Large + XX-Large:** Combined ~₹ (14,076 +1006) = ~₹ (15,082K) (~2%-sizable share; negligible).  
+   - **Large:** $ 375K (45.9% of total revenue)  
+   - **Medium:** $ 249K (30.5%)  
+   - **Small:** $ 178K (21.77%)  
+   - **X-Large + XX-Large:** Combined ~$ (14,076 +1006) = ~$ (15,082K) (~2%-sizable share; negligible).  
    - **Observation:** Large pizzas are the clear revenue driver; Medium come second.  
 
 2. **Quantity (Units Sold) by Size**  
@@ -161,15 +161,15 @@ The interactive Power BI dashboard (see screenshot below) aggregates all these m
    - **XX-Large:** 28 units (0.6%)  
 
 3. **Average Order Value by Size**  
-   - **Large:** ₹ 29.47 per pizza (higher contribution per unit)  
-   - **Medium:** ₹ 22.35 per pizza  
-   - **Small:** ₹ 16.98 per pizza  
-   - **Observation:** Upselling from Small → Large yields an incremental ₹ ~ 13 per pizza; promotions should highlight this value.  
+   - **Large:** $ 29.47 per pizza (higher contribution per unit)  
+   - **Medium:** $ 22.35 per pizza  
+   - **Small:** $ 16.98 per pizza  
+   - **Observation:** Upselling from Small → Large yields an incremental $ ~ 13 per pizza; promotions should highlight this value.  
 
 4. **Recommendations (Category 3):**  
-   1. **“Size-Up” Campaigns:** Promote “Buy a Small, Get a Large for ₹ 20 extra” to increase average ticket size.  
+   1. **“Size-Up” Campaigns:** Promote “Buy a Small, Get a Large for $ 20 extra” to increase average ticket size.  
    2. **Review X-Large & XX-Large Pricing:** Low sales volumes for X/XX-Large (combined < 10% of revenue) indicate possible price barrier. Consider limited-time discounted “Family XL Meal” to clear stock.  
-   3. **Size-Based Bundles:** Create “Triple-Size Special” bundles—one small, one medium, one large—for ₹ 99, boosting sales among budget-conscious customers.  
+   3. **Size-Based Bundles:** Create “Triple-Size Special” bundles—one small, one medium, one large—for $ 99, boosting sales among budget-conscious customers.  
    4. **Inventory Forecasting:** Since Large accounts for nearly half of all revenue, allocate ~50% of dough production capacity for Large crusts to avoid stockouts on peak days.
 
 > **Visualization (Category 3):**
@@ -181,11 +181,11 @@ The interactive Power BI dashboard (see screenshot below) aggregates all these m
 
 ### Category 4: Product-Level Rankings (Top 5 & Bottom 5 Pizzas)
 #### 4.1 Top 5 Pizzas by Revenue
-1. **The Thai Chicken Pizza:** ₹ 43,000  
-2. **Barbecue Chicken Pizza:** ₹ 43,000  
-3. **California Chicken Pizza:** ₹ 41,000  
-4. **Classic Deluxe Pizza:** ₹ 38,000  
-5. **Spicy Italian Pizza:** ₹ 35,000  
+1. **The Thai Chicken Pizza:** $ 43,000  
+2. **Barbecue Chicken Pizza:** $ 43,000  
+3. **California Chicken Pizza:** $ 41,000  
+4. **Classic Deluxe Pizza:** $ 38,000  
+5. **Spicy Italian Pizza:** $ 35,000  
 
 - **Insight:** Three of the top five are Chicken-based pizzas. The Classic Deluxe (signature brand pizza) still underperforms relative to newer flavor profiles.
 
@@ -196,7 +196,7 @@ The interactive Power BI dashboard (see screenshot below) aggregates all these m
 4. **Pepperoni Pizza:** 2,400 units  
 5. **Thai Chicken Pizza:** 2,400 units  
 
-- **Insight:** Classic Deluxe leads in volume, but Pepperoni and Hawaiian compete closely, suggesting broad appeal.
+- **Insight:** Classic Deluxe leads in volume, but Barbecue, Pepperoni, Hawaiian and Thai compete closely, suggesting broad appeal.
 
 #### 4.3 Top 5 Pizzas by Total Orders
 1. **Classic Deluxe Pizza:** 2,300 orders  
@@ -208,11 +208,11 @@ The interactive Power BI dashboard (see screenshot below) aggregates all these m
 - **Insight:** Order frequency aligns closely with quantity sold, indicating each of these five pizzas typically sells one unit per order on average.
 
 #### 4.4 Top 5 Pizzas by Average Order Value (AOV)
-1. **Brie Carre Pizza:** ₹ 24.14  
-2. **Greek Pizza:** ₹ 20.91  
-3. **Thai Chicken Pizza:** ₹ 19.52  
-4. **Five Cheese Pizza:** ₹ 19.18  
-5. **Spicy Italian Pizza:** ₹ 19.12  
+1. **Brie Carre Pizza:** $ 24.14  
+2. **Greek Pizza:** $ 20.91  
+3. **Thai Chicken Pizza:** $ 19.52  
+4. **Five Cheese Pizza:** $ 19.18  
+5. **Spicy Italian Pizza:** $ 19.12  
 
 - **Insight:** Brie Carre and Greek pizzas yield higher margins per order. Marketing can bundle these “premium” pizzas in targeted upsell campaigns.
 
@@ -226,13 +226,13 @@ The interactive Power BI dashboard (see screenshot below) aggregates all these m
 
 
 #### 4.5 Bottom 5 Pizzas by Revenue
-1. **Spinach Pesto Pizza:** ₹ 16,000  
-2. **Mediterranean Pizza:** ₹ 15,000  
-3. **Spinach Supreme Pizza:** ₹ 15,000  
-4. **Green Garden Pizza:** ₹ 14,000  
-5. **Brie Carre Pizza:** ₹ 12,000  
+1. **Spinach Pesto Pizza:** $ 16,000  
+2. **Mediterranean Pizza:** $ 15,000  
+3. **Spinach Supreme Pizza:** $ 15,000  
+4. **Green Garden Pizza:** $ 14,000  
+5. **Brie Carre Pizza:** $ 12,000  
 
-- **Insight:** Specialty vegetarian pizzas (Spinach Pesto, Mediterranean) underperform. Brie Carre, despite high AOV, is low volume.
+- **Insight:** Specialty vegetarian pizzas (Spinach Pesto, Mediterranean) underperform. Brie Carre, despite high AOV, is lowest volume.
 
 #### 4.6 Bottom 5 Pizzas by Quantity Sold
 1. **Soppressata Pizza:** 961 units  
@@ -241,7 +241,7 @@ The interactive Power BI dashboard (see screenshot below) aggregates all these m
 4. **Mediterranean Pizza:** 934 units  
 5. **Brie Carre Pizza:** 490 units  
 
-- **Insight:** Soppressata and Spinach Supreme are niche items with limited appeal. Look into recipe costs vs. revenue to determine discontinuation.
+- **Insight:** Mediterranean and Brie Carre Pizza are niche items with limited appeal. Look into recipe costs vs. revenue to determine discontinuation.
 
 #### 4.7 Bottom 5 Pizzas by Total Orders
 1. **Chicken Pesto Pizza:** 938 orders  
@@ -253,11 +253,11 @@ The interactive Power BI dashboard (see screenshot below) aggregates all these m
 - **Insight:** Brie Carre’s premium price point discounts its appeal—could be relaunched as a limited-time seasonal special rather than a year-round item.
 
 #### 4.8 Bottom 5 Pizzas by AOV
-1. **Pepperoni, Mushroom & Peppers Pizza:** ₹ 14.31  
-2. **Green Garden Pizza:** ₹ 14.30  
-3. **Hawaiian Pizza:** ₹ 14.15  
-4. **Pepperoni Pizza:** ₹ 13.24  
-5. **Big Meat Pizza:** ₹ 12.68  
+1. **Pepperoni, Mushroom & Peppers Pizza:** $ 14.31  
+2. **Green Garden Pizza:** $ 14.30  
+3. **Hawaiian Pizza:** $ 14.15  
+4. **Pepperoni Pizza:** $ 13.24  
+5. **Big Meat Pizza:** $ 12.68  
 
 - **Insight:** Certain classic flavors (Pepperoni, Hawaiian) have low AOV—likely because customers purchase them as small or medium only. Consider upselling them to large size.
 
@@ -276,8 +276,8 @@ Based on all the insights above, we recommend the following actions to the **Mar
    - **Promote High-Margin Items**: Highlight Brie Carre, Greek, and Thai Chicken in email newsletters and in-app promotions to boost AOV.
 
 2. **Seasonal & Size-Up Promotions:**  
-   - **“Summer Fiesta Bundle” (July–August)**: Combine two Large Classic pizzas + 2 sides + 4 drinks for ₹ 499 to leverage peak summer demand.  
-   - **Mid-Week “Size-Up” Voucher**: Offer a ₹ 20 voucher that upgrades any Small pizza → Large when customers order on Wednesday or Thursday.
+   - **“Summer Fiesta Bundle” (May–July)**: Combine two Large Classic pizzas + 2 sides + 4 drinks for $ 499 to leverage peak summer demand.  
+   - **Mid-Week “Size-Up” Voucher**: Offer a $ 20 voucher that upgrades any Small pizza → Large when customers order on Wednesday or Thursday.
 
 3. **Inventory & Supply Chain Alignment:**  
    - **Focus Dough Production**: Allocate production capacity for Large crusts to cover ~45% of overall demand—reforecast weekly based on rolling 4-week average.  
@@ -285,8 +285,8 @@ Based on all the insights above, we recommend the following actions to the **Mar
 
 4. **Customer Segmentation & Loyalty:**  
    - **Target Veggie-Loyal Segment**: Since Veggie category AOV is low, send personalized “Add Extra Cheese” or “Deluxe Veggie” coupons to customers who purchased > 3 Veggie pizzas in past 3 months.  
-   - **Reactivation Campaign**: Identify customers who have not ordered since Q2 2024—send them “We Miss You!” vouchers for ₹ 15 off a ₹ 150 order to re-engage.
+   - **Reactivation Campaign**: Identify customers who have not ordered since Q2 2024—send them “We Miss You!” vouchers for $ 15 off a $ 150 order to re-engage.
 
 5. **Menu Engineering & Pricing:**  
    - **Re-price X-Large & XX-Large**: Introduce a limited-time “XL Family Pack” discount (10% off) to test price elasticity; monitor if X/XX volumes increase above 10% share.  
-   - **Bundle Upsells**: Bundling a side (e.g., Garlic Bread) with classic pizzas at a nominal extra ₹ 30 improves margin and average order value.
+   - **Bundle Upsells**: Bundling a side (e.g., Garlic Bread) with classic pizzas at a nominal extra $ 30 improves margin and average order value.

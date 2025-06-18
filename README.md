@@ -65,7 +65,7 @@ If the CEO of Pizza Shop Inc. were to take away three key insights from this ana
 
 The interactive Power BI dashboard (see screenshot below) aggregates all these metrics on a single canvas, allowing stakeholders to drill into daily, monthly, category, size, and product-level performance in real time.
 
-![Screenshot 2025-06-11 140001](https://github.com/user-attachments/assets/59e989ac-f189-4c5e-920c-e32c8f6f2a3a)
+![Overall](https://github.com/user-attachments/assets/857dcc88-ee13-4a80-8fa9-d0760127cd28)
 
 
 
@@ -106,8 +106,8 @@ The interactive Power BI dashboard (see screenshot below) aggregates all these m
    3. **Friday Slow-Day Discounts:** Consider a “Make-It-Friday” 10% discount to flatten weekend dips between Friday–Saturday.
 
 > **Visualization (Category 1):**
-> 
->![Screenshot 2025-06-11 140329](https://github.com/user-attachments/assets/235e3ba8-9b10-4af4-b3e4-d1998f1a7299)
+>
+> ![Screenshot 2025-06-18 122234](https://github.com/user-attachments/assets/abd260c7-99b6-46be-856b-03162dcba26f)
 > 
 > *Figure 1: Monthly Orders & Revenue Trend (Area Chart) + Daily Trends (Bar Chart)*
 
@@ -140,7 +140,7 @@ The interactive Power BI dashboard (see screenshot below) aggregates all these m
 
 > **Visualization (Category 2):**
 > 
-> ![Category Breakdown  (Donut Char) ![Screenshot 2025-06-11 140713](https://github.com/user-attachments/assets/861163c9-b3e1-46ee-8d0f-28aef3e4c619)
+> ![Category Breakdown  (Donut Char) ![Screenshot 2025-06-18 122257](https://github.com/user-attachments/assets/bcff6888-1c80-4afb-abe2-ab6ea86e24e6)
 > 
 > *Figure 2: Revenue & Volume Share by Pizza Category*
 
@@ -174,7 +174,7 @@ The interactive Power BI dashboard (see screenshot below) aggregates all these m
 
 > **Visualization (Category 3):**
 >
->![Screenshot 2025-06-11 140902](https://github.com/user-attachments/assets/a6e2d668-a36e-4ea8-9a2b-68a16d1efd0c)
+>![Screenshot 2025-06-18 122315](https://github.com/user-attachments/assets/abf66bf0-5d2a-4f7a-9ba3-3cd1cab7f289)
 > 
 > *Figure 3: Revenue & Quantity Share by Pizza Size*
 
@@ -218,7 +218,7 @@ The interactive Power BI dashboard (see screenshot below) aggregates all these m
 
 > **Visualization (Category 4 – Best Sellers):**
 > 
->![Screenshot 2025-06-11 141355](https://github.com/user-attachments/assets/e39f8568-0244-453b-853b-d5e22d38bf78)
+>![Screenshot 2025-06-18 122350](https://github.com/user-attachments/assets/3342273e-0328-4822-95ba-f7450677665a)
 > 
 > *Figure 4: Top 5 Pizzas by Revenue, Quantity, Orders, AOV*
 
@@ -263,7 +263,7 @@ The interactive Power BI dashboard (see screenshot below) aggregates all these m
 
 > **Visualization (Category 4 – Least Sellers):**
 > 
->![Screenshot 2025-06-11 142252](https://github.com/user-attachments/assets/d58e9212-f959-4328-b0b8-fecd76db2f34)
+>![Screenshot 2025-06-18 122409](https://github.com/user-attachments/assets/bfd3c3e6-3dcc-410f-b008-5b5b0ad5ac9a)
 > 
 > *Figure 5: Bottom 5 Pizzas by Revenue, Quantity, Orders, AOV*
 
